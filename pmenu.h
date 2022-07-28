@@ -59,6 +59,6 @@ struct pmenu {
     struct widget* wid;
 };
 struct pmenu pmenu_from_menu(struct menu* mm);
-int menu_init(struct menu mm);
+int menu_init(struct menu* mm);
 int pmenu_init(struct pmenu pm);
 #endif
